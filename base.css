@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', sans-serif, sans-serif;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(120, 120, 140, 0.2);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color:rgb(120, 120, 140);
+    color: rgb(255, 250, 240);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(255, 250, 245);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(172, 172, 194);
+    color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 5px;
+
+    & .info {
+        text-align: center;
+    }
+
+    & .contact-info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
+
+ul li {
+    margin-bottom: 10px;
+}
